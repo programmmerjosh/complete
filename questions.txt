@@ -1,0 +1,40 @@
+0.  pneumonoultramicroscopicsilicovolcanoconiosis is sometimes cited as one of
+    the longest words in the English language. It refers to a lung disease 
+    caused by inhaling silica dust.
+    
+1.  Returns resource usage measures for either:
+        >The sum of resources used by all threads in the process;
+        >All children of the calling process that have terminated and been 
+        waited for;
+        >The calling thread.
+        
+2.  16
+
+3.  Passing them by reference won't use more/unnecessary memory as it would if 
+    they were passed by value.
+
+4.  Main uses the fgetc method within a for loop to read one character on each
+    iteration. Only alphabetical characters and apostrophes are allowed/passed.
+    Any words with numbers are ignored, the remaining characters are then
+    removed and a variable's value is set to 0 to prepare for a new word. If the
+    word exists, the spelling is checked and printed correctly. Prepare for next
+    word if not end of file.
+    
+5.  I think for user mistakes in spelling and so forth could create problems
+    when checking whole words rather than to go character by character, allowing
+    apostrophes etc.
+    
+6.  So that if the programmer decides to change the const value then he/she only
+    has to do it at one location.
+    
+7.  I used a trie data structure to implement my load function. So each of my
+    nodes has a boolean variable to demarcate whether a word is a real word (if
+    it was loaded from the dictionary) or not. Each node also has an array of 
+    size 27 (specifically 27 for refernece to each letter of the alphabet 
+    including an apostrophe).
+    
+8.  Exactly as fast as it is now.
+
+9.  The only changes I made (which were necassary) were to remove a memory leak.
+
+10. Not that I am aware of.
